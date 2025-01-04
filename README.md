@@ -1,3 +1,8 @@
+# Fork of chameleon
+This should enable the use of chameleon in nvim configs without relying on neviraide. Primarily did this to have the hyde colorways in my nvim config.
+If it does not work (very likely) feel free to open an issue. I only tested it on my machine with my config and dot files.
+
+# Original Readme: 
 # Chameleon
 
 NeViRAIDE colorschemes
