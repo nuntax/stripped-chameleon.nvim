@@ -5,7 +5,7 @@ M.palette = {}
 local function set_colors()
   ---@type table
   local theme_colors = require('chameleon.utils').get_theme_tb('colors')
-  local kitty_colors = require('neviraide-ui.kitty').colors.kitty
+  local kitty_colors = require('chameleon.kitty').colors.kitty
 
   if require('chameleon').config.hyde then
     -- combine theme_colors and kitty_colors

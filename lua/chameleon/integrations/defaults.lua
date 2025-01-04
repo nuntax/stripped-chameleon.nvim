@@ -224,8 +224,6 @@ local defaults = {
 }
 
 local merge_tb = require('chameleon.utils').merge_tb
-defaults =
-  merge_tb(defaults, require('chameleon.utils').load_highlight('neviline'))
 
 defaults.NuiTitle = { bg = 'none', fg = color.active_accent, bold = true }
 
